@@ -22,7 +22,9 @@ const MetaMask = () => {
         const accounts = await prov.send("eth_requestAccounts", []);
 
         // const signer = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
+        const sign = await prov.getSigner()
 
+        setSigner(sign)
         setProvider(prov);
         setAccountList(accounts);
         setActiveAccount(accounts[0]);
