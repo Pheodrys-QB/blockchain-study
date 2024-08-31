@@ -1,0 +1,129 @@
+.history,
+.history th,
+.history td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;  
+}
+
+.history th {
+  background-color: #04aa6d;
+}
+.history td {
+  background-color: #cdede1;
+}
+
+.topBar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.topBar span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+table.history {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.authTab, .authInfo {
+  align-content: center;
+}
+
+.authTab button,
+.authInfo button {
+  margin-inline: 0.5rem;
+}
+
+button {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4dc599;
+}
+
+button:disabled {
+  background-color: lightgray;
+  cursor: default;
+}
+
+form input {
+  width: 400px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+form table {
+  margin: auto auto;
+}
+
+.body {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+top: 60px;
+bottom: 10px;
+left: 10px;
+right: 0px;}
+
+.ctrlPanel {
+  display: flex;
+  flex: 1;
+  background-color: #04aa6d;
+  border-radius: 25px;
+  justify-content: center;
+}
+
+.main {
+  flex: 4
+}
+
+.card {
+  background-color: #cdede1;
+  width: 80%;
+  min-height: 4rem;
+  margin: 10px 10px auto 10px;
+  border-radius: 20px;
+  text-align: left;
+  padding-top: 60px;
+}
+
+.addressDisplay {
+  display: block;
+  white-space: nowrap;
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 5px;
+}
+
+.addressPopup {
+  display: block;
+  position: absolute;
+  white-space: nowrap;  
+  width: auto;
+  padding: 5px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.color-w {
+  color: white;
+}
+
